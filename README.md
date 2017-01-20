@@ -38,4 +38,12 @@ Then start the server
 
 Use browser to visit `http://localhost:3000`
 
+### To Run on Heroku 
+Create the heroku app and add the git remote
+
+    $ git push heroku master
+
+Extremely important: the following must be one once (or after any models change)
+
+    $ heroku run rake db:migrate
 
