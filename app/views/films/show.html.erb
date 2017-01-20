@@ -1,1 +1,9 @@
 <h3>Show Film Page</h3>
+
+<h3><%= @film.title %></h3>
+
+<p><%= @film.description %></p>
+
+<%= link_to "Edit Film Details", edit_film_path(@film) %>
+<br/>
+<%= link_to "Delete Film", film_path(@film), method: :delete, data: {confirm: "Are you sure?"} %>

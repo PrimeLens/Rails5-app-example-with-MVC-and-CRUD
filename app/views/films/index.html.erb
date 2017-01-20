@@ -1,1 +1,24 @@
 <h3>Listings Page</h3>
+
+
+
+<%
+  # this is called by the index method in 
+  # the films controller
+%>
+
+
+<h3>Films Home Page</h3>
+
+
+<% @films.each do |film| %>
+  <h3><%= film.title %></h3>
+  <div>
+    <%= 
+      # film.description 
+      truncate(film.description, :length => 100)
+    %>
+  </div>
+  <br>
+  <%= link_to "Read More", film %>
+<% end %>

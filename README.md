@@ -23,10 +23,17 @@ Clone the repo, then alter the permissions so Rails can write folders
 
     $ sudo chmod -R 777 Rails5-app-example-with-MVC-and-CRUD
     
-Download the gems and start the server
+Download the gems
 
     $ cd Rails5-app-example-with-MVC-and-CRUD
     $ bundle --without production
+
+Next do the following which will create db/migrate/schema.rb
+
+    $ rake db:migrate    
+
+Then start the server
+
     $ rails server
 
 Use browser to visit `http://localhost:3000`
