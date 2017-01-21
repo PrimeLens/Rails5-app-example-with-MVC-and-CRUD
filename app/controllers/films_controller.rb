@@ -41,7 +41,6 @@ class FilmsController < ApplicationController
   end
 
   def destroy
-    p "@@@@@@@@@   WE ARE AT DESTROY METHOD"
     @film = Film.find(params[:id])
     @film.destroy
     redirect_to root_path
