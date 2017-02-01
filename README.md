@@ -1,5 +1,5 @@
-# Films List 
-### A Ruby on Rails 5 Example Application _(work in progress)_
+# Ruby on Rails5 Example App called "Films List"
+### demonstrates Model/View/Controller and Create/Read/Update/Delete
 
 - ready for Heroku deploy
   - local use of mysql
