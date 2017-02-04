@@ -39,7 +39,7 @@ Then start the server
 Use browser to visit `http://localhost:3000`
 
 ### To Run on Heroku 
-Create the heroku app and add the git remote
+Create the heroku app, initialize git and add the git remote, package up a commit then
 
     $ git push heroku master
 
