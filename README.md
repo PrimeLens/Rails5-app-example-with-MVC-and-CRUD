@@ -47,3 +47,4 @@ Extremely important: the following must be one once (or after any models change)
 
     $ heroku run rake db:migrate
 
+[![Run on Repl.it](https://repl.it/badge/github/PrimeLens/Rails5-app-example-with-MVC-and-CRUD)](https://repl.it/github/PrimeLens/Rails5-app-example-with-MVC-and-CRUD)
